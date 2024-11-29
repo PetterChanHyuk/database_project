@@ -1,0 +1,84 @@
+.button_main {
+  width: 100%;
+  padding: 15px 0;
+  font-family: var(--main-font-bold);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button_main:hover {
+  transform: scale(1.02);
+}
+
+.button_main:active {
+  transform: scale(0.98);
+}
+
+.blue {
+  background-color: #5bc0de;
+}
+
+.blue:hover {
+  background-color: #31b0d5;
+}
+
+.blue:active {
+  background-color: #1b6d85;
+}
+
+.red {
+  background-color: #ff6b6b;
+}
+
+.red:hover {
+  background-color: #ff4b4b;
+}
+
+.red:active {
+  background-color: #e63939;
+}
+
+.yellow {
+  background-color: #f7d774;
+}
+
+.yellow:hover {
+  background-color: #f5c542;
+}
+
+.yellow:active {
+  background-color: #d9a021;
+}
+
+.button_main_disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;  
+  width: 100%;
+  padding: 15px 0;
+  font-family: var(--main-font-bold);
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s, background-color 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mini-button {
+  width: 30%;
+  padding: 15px 0;
+  font-family: var(--main-font-bold);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.91);
+  border-radius: 8px;
+  transition: transform 0.2s, background-color 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

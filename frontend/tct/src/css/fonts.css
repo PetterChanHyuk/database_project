@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'SpoqaHanSans-Medium';
+    src: url('SpoqaHanSansNeo-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SpoqaHanSans-Bold';
+    src: url('SpoqaHanSansNeo-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-font-medium: 'SpoqaHanSans-Medium';
+    --main-font-bold: 'SpoqaHanSans-Bold';
+}
+
+.h4Font {
+    font-family: 'SpoqaHanSans-Bold';
+    font-size: 32px;
+}
+
+.NormalFont {
+    font-family: 'SpoqaHanSans-Medium';
+    font-size: 20px;
+}
+
+.SmallFont {
+    font-family: 'SpoqaHanSans-Medium';
+    font-size: 14px;
+}

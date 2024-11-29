@@ -1,0 +1,76 @@
+/* Reservation2.css */
+.reservation-summary-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profile-icon {
+    font-size: 24px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .notice-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    justify-content: flex-end; /* 우측 정렬 */
+    align-items: center; /* 수직 정렬 */
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .checkbox-container input {
+    margin-left: 10px;
+  }
+  
+  .complete-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffeb3b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .complete-button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+
+  .silverprize{
+    justify-content: center;
+  }
